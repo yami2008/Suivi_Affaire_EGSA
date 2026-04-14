@@ -1,0 +1,28 @@
+# ── Dossiers des affaires (confidentiels + potentiellement lourds) ─────────
+AFF-*/
+
+# ── Fichiers temporaires Python ────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Fichiers temporaires de lecture Excel (générés par les scripts) ────────
+excel_out.txt
+excel_output.txt
+
+# ── Fichiers système Windows ───────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── Fichiers temporaires Office ────────────────────────────────────────────
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# ── Ce qui EST versionné (pour info) ──────────────────────────────────────
+# .github/skills/        → les skills Copilot
+# SETUP.md               → guide d'installation
+# INSTALL.md             → manuel de déploiement
+# Suivi_Affaires_EGSA.xlsx → le fichier de suivi (source de vérité)
+# read_excel.py          → le script de mise à jour
